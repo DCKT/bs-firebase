@@ -66,6 +66,11 @@ module Provider = {
 };
 
 [@bs.send]
+external signInWithEmailAndPassword:
+  (t, ~email: string, ~password: string) => Js.Promise.t(Result.t) =
+  "signInWithEmailAndPassword";
+
+[@bs.send]
 external signInWithPopup: (t, Provider.t) => Js.Promise.t(Result.t) =
   "signInWithPopup";
 
