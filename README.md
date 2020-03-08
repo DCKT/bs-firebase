@@ -1,6 +1,21 @@
 # bs-firebase
 
-🚧 WIP
+## Setup
+
+Install module
+```bash
+yarn add @dck/bs-firebase
+```
+
+Add it to `bsconfig.json`
+```bash
+{
+  "bs-dependencies": [
+    ...,
+    "@dck/bs-firebase"
+  ]
+}
+```
 
 ## Initialize app
 

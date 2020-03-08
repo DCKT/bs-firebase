@@ -1,0 +1,50 @@
+Arguments: 
+  /home/dck/.fnm/node-versions/v12.16.1/installation/bin/node /usr/share/yarn/bin/yarn.js add -D bs-plaform
+
+PATH: 
+  /tmp/fnm-shell-7214173/bin:/home/dck/.fnm:/tmp/fnm-shell-5036315/bin:/home/dck/.fnm:/usr/local/sbin:/usr/local/bin:/usr/sbin:/usr/bin:/sbin:/bin:/usr/games:/usr/local/games:/snap/bin
+
+Yarn version: 
+  1.22.1
+
+Node version: 
+  12.16.1
+
+Platform: 
+  linux x64
+
+Trace: 
+  Error: https://registry.yarnpkg.com/bs-plaform: Not found
+      at Request.params.callback [as _callback] (/usr/share/yarn/lib/cli.js:66982:18)
+      at Request.self.callback (/usr/share/yarn/lib/cli.js:140743:22)
+      at Request.emit (events.js:311:20)
+      at Request.<anonymous> (/usr/share/yarn/lib/cli.js:141715:10)
+      at Request.emit (events.js:311:20)
+      at IncomingMessage.<anonymous> (/usr/share/yarn/lib/cli.js:141637:12)
+      at Object.onceWrapper (events.js:417:28)
+      at IncomingMessage.emit (events.js:323:22)
+      at endReadableNT (_stream_readable.js:1204:12)
+      at processTicksAndRejections (internal/process/task_queues.js:84:21)
+
+npm manifest: 
+  {
+    "name": "@dck/bs-firebase",
+    "version": "0.3.0",
+    "scripts": {
+      "build": "bsb -make-world",
+      "start": "bsb -make-world -w",
+      "clean": "bsb -clean-world"
+    },
+    "keywords": ["BuckleScript", "reasonml", "firebase", "bucklescript-bindings"],
+    "author": "Thomas Deconinck",
+    "license": "MIT",
+    "devDependencies": {
+      "bs-platform": "5.0.6"
+    }
+  }
+
+yarn manifest: 
+  No manifest
+
+Lockfile: 
+  No lockfile

@@ -6,10 +6,15 @@
     "start": "bsb -make-world -w",
     "clean": "bsb -clean-world"
   },
-  "keywords": ["BuckleScript", "reasonml", "firebase", "bucklescript-bindings"],
+  "keywords": [
+    "BuckleScript",
+    "reasonml",
+    "firebase",
+    "bucklescript-bindings"
+  ],
   "author": "Thomas Deconinck",
   "license": "MIT",
   "devDependencies": {
-    "bs-platform": "5.0.6"
+    "bs-platform": "7.2.1"
   }
 }
